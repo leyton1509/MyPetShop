@@ -35,7 +35,7 @@ public abstract class Pet implements PetInterface{
     /**
      * Method to be overridden to subsequent animals
      */
-    public void makeAnimalNoise(){}
+    public abstract void makeAnimalNoise();
 
     /**
      * @return String with the animals details
