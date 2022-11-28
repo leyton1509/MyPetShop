@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2eea8e90-11d7-40a6-b618-bbeed7d8c120" name="Changes" comment="Changed dog to have a breed and is asked for in the constructor">
+    <list default="true" id="2eea8e90-11d7-40a6-b618-bbeed7d8c120" name="Changes" comment="Added a pomeranian sub type">
+      <change afterPath="$PROJECT_DIR$/src/PetTypes/DogTypes/Pomeranian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PetTypes/DogTypes/GermanShepard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PetTypes/DogTypes/GermanShepard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="PetTypes.DogTypes" />
       <recent name="PetTypes" />
     </key>
   </component>
@@ -58,7 +60,7 @@
       <workItem from="1669296014616" duration="2184000" />
       <workItem from="1669299569826" duration="2894000" />
       <workItem from="1669628569644" duration="754000" />
-      <workItem from="1669636444344" duration="4851000" />
+      <workItem from="1669636444344" duration="5026000" />
     </task>
     <task id="LOCAL-00001" summary="An abstract class to represent what a pet is, implements the pet interface class">
       <created>1669301156179</created>
@@ -158,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669645199698</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added the overridden make noise">
+      <created>1669645273551</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669645273551</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +200,8 @@
     <MESSAGE value="Added new folder for dog types and added a german shepard class" />
     <MESSAGE value="Added constructor and extended dog" />
     <MESSAGE value="Changed dog to have a breed and is asked for in the constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed dog to have a breed and is asked for in the constructor" />
+    <MESSAGE value="Added the overridden make noise" />
+    <MESSAGE value="Added a pomeranian sub type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a pomeranian sub type" />
   </component>
 </project>

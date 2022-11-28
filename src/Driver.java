@@ -2,6 +2,7 @@ import PetTypes.Cat;
 import PetTypes.Crocodile;
 import PetTypes.Dog;
 import PetTypes.DogTypes.GermanShepard;
+import PetTypes.DogTypes.Pomeranian;
 import PetTypes.Pet;
 import java.util.LinkedList;
 
@@ -27,6 +28,10 @@ public class Driver {
         Dog sid = new Dog("Sam", "Mammal", 8, "Dominick", 27.90f, "White", "German Shepard");
 
         pets.add(sid);
+
+        Pomeranian bear = new Pomeranian("Bear", "Mammal", 8, "Dominick", 15f, "Brown", "Pomeranian");
+
+        pets.add(bear);
 
         GermanShepard sam = new GermanShepard("Sam", "Mammal", 8, "Dominick", 27.90f, "White", "German Shepard");
 
