@@ -5,6 +5,8 @@ package PetTypes;
  */
 public class Dog extends Pet {
 
+    private String breed;
+
     /**
      * A representation of a dog
      * Is a pet
@@ -15,8 +17,10 @@ public class Dog extends Pet {
      * @param _animalWeight the weight of the animal
      * @param _animalColour the colour of the animal
      */
-    public Dog(String _animalName, String _animalClass, int _animalAge, String _ownerName, float _animalWeight, String _animalColour){
+
+    public Dog(String _animalName, String _animalClass, int _animalAge, String _ownerName, float _animalWeight, String _animalColour, String _breed){
         super  ( _animalName,  _animalClass, _animalAge, _ownerName, _animalWeight, _animalColour);
+        breed = _breed;
     }
 
     /**
@@ -27,6 +31,10 @@ public class Dog extends Pet {
     @Override
     public void makeAnimalNoise(){
         System.out.println("BARK");
+    }
+
+    public String getBreed(){
+        return breed;
     }
 
 }

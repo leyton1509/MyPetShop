@@ -1,6 +1,7 @@
 import PetTypes.Cat;
 import PetTypes.Crocodile;
 import PetTypes.Dog;
+import PetTypes.DogTypes.GermanShepard;
 import PetTypes.Pet;
 import java.util.LinkedList;
 
@@ -23,7 +24,11 @@ public class Driver {
 
         // Crocodile Object
 
-        Dog sam = new Dog("Sam", "Mammal", 8, "Dominick", 27.90f, "White");
+        Dog sid = new Dog("Sam", "Mammal", 8, "Dominick", 27.90f, "White", "German Shepard");
+
+        pets.add(sid);
+
+        GermanShepard sam = new GermanShepard("Sam", "Mammal", 8, "Dominick", 27.90f, "White", "German Shepard");
 
         // See if the age can be set
 
