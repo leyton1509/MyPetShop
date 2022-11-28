@@ -5,8 +5,6 @@ package PetTypes;
  */
 public class Dog extends Pet {
 
-    private String breed;
-
     /**
      * A representation of a dog
      * Is a pet
@@ -32,8 +30,6 @@ public class Dog extends Pet {
         System.out.println("BARK");
     }
 
-    public String getBreed(){
-        return breed;
-    }
+
 
 }
