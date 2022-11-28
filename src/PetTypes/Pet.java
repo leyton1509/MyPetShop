@@ -33,7 +33,7 @@ public abstract class Pet implements PetInterface{
     }
 
     /**
-     * Method to be overridden to subsequent animals
+     * Method to be overridden to subsequent animals, this is redundant because of interface but still included
      */
     public abstract void makeAnimalNoise();
 
