@@ -11,13 +11,27 @@ public class GermanShepard extends Dog {
         breed = _breed;
     }
 
+    /**
+     * Makes an animal noise
+     */
     @Override
     public void makeAnimalNoise(){
         System.out.println("BIG BARK");
     }
 
+    /**
+     * @return Breed
+     */
     public String getBreed(){
         return breed;
+    }
+
+    /**
+     * @return String for the details overriding super with breed
+     */
+    @Override
+    public String returnDetailsString(){
+        return "| Name : " + this.getAnimalName() + " | Class : " + this.getAnimalClass() + " | Age : " + this.getAnimalAge() + " | Colour : " + this.getAnimalColour() + " | Weight : " + this.getAnimalWeight() + " |" + " Breed : " + breed + " | ";
     }
 
 }
