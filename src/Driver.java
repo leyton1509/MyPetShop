@@ -25,7 +25,7 @@ public class Driver {
 
         // Crocodile Object
 
-        Dog sid = new Dog("Sam", "Mammal", 8, "Dominick", 27.90f, "White", "German Shepard");
+        Dog sid = new Dog("Sam", "Mammal", 8, "Dominick", 27.90f, "White");
 
         pets.add(sid);
 

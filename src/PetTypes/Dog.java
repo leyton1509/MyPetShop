@@ -18,9 +18,8 @@ public class Dog extends Pet {
      * @param _animalColour the colour of the animal
      */
 
-    public Dog(String _animalName, String _animalClass, int _animalAge, String _ownerName, float _animalWeight, String _animalColour, String _breed){
+    public Dog(String _animalName, String _animalClass, int _animalAge, String _ownerName, float _animalWeight, String _animalColour){
         super  ( _animalName,  _animalClass, _animalAge, _ownerName, _animalWeight, _animalColour);
-        breed = _breed;
     }
 
     /**
