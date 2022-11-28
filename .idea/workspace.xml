@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eea8e90-11d7-40a6-b618-bbeed7d8c120" name="Changes" comment="Added getters for variables changed from protected to public">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
     </list>
@@ -59,7 +58,7 @@
       <workItem from="1669296014616" duration="2184000" />
       <workItem from="1669299569826" duration="2894000" />
       <workItem from="1669628569644" duration="754000" />
-      <workItem from="1669636444344" duration="3939000" />
+      <workItem from="1669636444344" duration="4031000" />
     </task>
     <task id="LOCAL-00001" summary="An abstract class to represent what a pet is, implements the pet interface class">
       <created>1669301156179</created>
@@ -124,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669644316033</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added getters for variables changed from protected to public">
+      <created>1669644345574</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669644345574</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

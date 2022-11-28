@@ -1,3 +1,4 @@
+import PetTypes.Cat;
 import PetTypes.Crocodile;
 import PetTypes.Dog;
 import PetTypes.Pet;
@@ -33,6 +34,10 @@ public class Driver {
         pets.add(sam);
 
         // Loops through the pets and displays the details and makes each animal's specific noise
+
+        Cat tom = new Cat("Tom", "Mammal", 8, "Dominick", 10f, "Green");
+
+        pets.add(tom);
 
         for (Pet pet: pets) {
             System.out.println(pet.returnDetailsString());
