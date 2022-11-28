@@ -16,7 +16,6 @@ public abstract class Pet implements PetInterface{
 
 
     /**
-     * A representation of a dog
      * Is a pet
      * @param _animalName the name of animal
      * @param _animalClass the class of the animal
@@ -94,7 +93,7 @@ public abstract class Pet implements PetInterface{
     }
 
     /**
-     * @return Animal Class
+     * @return Animal Class4
      */
 
     public String getAnimalClass(){
