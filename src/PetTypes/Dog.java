@@ -23,6 +23,8 @@ public class Dog extends Pet {
      * Overrides the makeAnimalNoise method in Pet
      * Prints out bark
      */
+
+    @Override
     public void makeAnimalNoise(){
         System.out.println("BARK");
     }

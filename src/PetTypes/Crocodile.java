@@ -26,6 +26,7 @@ public class Crocodile extends Pet{
      * Prints out hiss
      */
 
+    @Override
     public void makeAnimalNoise(){
         System.out.println("HISS");
     }
