@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2eea8e90-11d7-40a6-b618-bbeed7d8c120" name="Changes" comment="Added pet to list">
-      <change beforePath="$PROJECT_DIR$/src/PetTypes/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PetTypes/Pet.java" afterDir="false" />
+    <list default="true" id="2eea8e90-11d7-40a6-b618-bbeed7d8c120" name="Changes" comment="Added new folder for dog types and added a german shepard class">
+      <change afterPath="$PROJECT_DIR$/src/PetTypes/DogTypes/GermanShepard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PetTypes/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PetTypes/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,7 +60,7 @@
       <workItem from="1669296014616" duration="2184000" />
       <workItem from="1669299569826" duration="2894000" />
       <workItem from="1669628569644" duration="754000" />
-      <workItem from="1669636444344" duration="4168000" />
+      <workItem from="1669636444344" duration="4656000" />
     </task>
     <task id="LOCAL-00001" summary="An abstract class to represent what a pet is, implements the pet interface class">
       <created>1669301156179</created>
@@ -136,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669644444507</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Removed incorrect comment">
+      <created>1669644587432</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669644587432</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +175,8 @@
     <MESSAGE value="Added a Cat class" />
     <MESSAGE value="Added getters for variables changed from protected to public" />
     <MESSAGE value="Added pet to list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added pet to list" />
+    <MESSAGE value="Removed incorrect comment" />
+    <MESSAGE value="Added new folder for dog types and added a german shepard class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new folder for dog types and added a german shepard class" />
   </component>
 </project>
